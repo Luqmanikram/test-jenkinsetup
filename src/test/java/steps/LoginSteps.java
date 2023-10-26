@@ -22,6 +22,7 @@ public class LoginSteps {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         System.out.println("Browser Open successfully");
+        System.out.println("This is my second try");
 
 
 
@@ -32,6 +33,7 @@ public class LoginSteps {
         driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input")).sendKeys("Admin");
         driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input")).sendKeys("admin123");
         System.out.println("User credential varified");
+        System.out.println("This is my second try");
 
     }
 
@@ -40,6 +42,7 @@ public class LoginSteps {
         driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
 
         System.out.println("Click login buttton successfully");
+        System.out.println("This is my second try");
 
     }
 
